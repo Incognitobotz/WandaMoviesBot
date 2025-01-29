@@ -89,8 +89,8 @@ MAX_BTN = int(environ.get('MAX_BTN', 10)) #don't change anything in Language
 LANGUAGES = [language.lower() for language in environ.get('LANGUAGES', 'english hindi telugu tamil kannada malayalam').split()]
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", script.IMDB_TEMPLATE)
 FILE_CAPTION = environ.get("FILE_CAPTION", script.FILE_CAPTION)
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "yamlinks.com")
-SHORTLINK_API = environ.get("SHORTLINK_API", "798f23f33cddefaa540f3c328746d650c1c3c75d")
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "linkmonetizer.in")
+SHORTLINK_API = environ.get("SHORTLINK_API", "c063f52de487e95215a3e75ed967431459313664")
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
 INDEX_EXTENSIONS = [extensions.lower() for extensions in environ.get('INDEX_EXTENSIONS', 'mp4 mkv').split()]
@@ -114,7 +114,7 @@ SHORTLINK = is_enabled('SHORTLINK', True)
 
 
 PAYMENT_QR = environ.get('PAYMENT_QR', 'https://telegra.ph/file/0bce1ff0bf272ed4b3f50.jpg') #telegraph link of your QR code 
-UPI_ID = environ.get('UPI_ID', 'jaybarkesya2005@oksbi') # Add your upi id here
+UPI_ID = environ.get('UPI_ID', 'jaybarkesya@ibl') # Add your upi id here
 # for stream
 IS_STREAM = is_enabled('IS_STREAM', False) #true if you want stream feature active in your bot
 BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002198936292") #if is_stream = true then add a channel id ex: -10026393639
