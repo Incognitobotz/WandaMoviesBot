@@ -1673,7 +1673,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('💸 E𝐚𝐫𝐧 M𝐨𝐧𝐞𝐲 💸', callback_data="shortlink_info")
         ],[
                 InlineKeyboardButton(
-                    "🦋 𝐀𝐥𝐥 𝐢𝐧 𝐎𝐧𝐞 🦋", url='https://youtube.com/@LazyDeveloperr'
+                    "🦋 𝐀𝐥𝐥 𝐢𝐧 𝐎𝐧𝐞 🦋", url='https://t.me/JpMovies_Official/75'
                 )
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
